@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Box, Button, Divider, Paper, Stack, TextField, Typography, Avatar } from '@mui/material'
+import { Box, Button, Paper, Stack, TextField, Typography, Avatar } from '@mui/material'
 import { Container, Row, Col } from 'react-bootstrap'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'

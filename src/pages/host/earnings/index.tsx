@@ -209,6 +209,7 @@ export default function HostEarnings() {
                         <TableCell>
                           <ActionsMenu
                             onView={() => navigate(`/host/earnings/show/${earning.id}`)}
+                            onDelete={() => {}}
                             viewLabel="View"
                           />
                         </TableCell>
@@ -283,6 +284,7 @@ export default function HostEarnings() {
                         <TableCell>
                           <ActionsMenu
                             onView={() => navigate(`/host/earnings/payout/${payout.id}`)}
+                            onDelete={() => {}}
                             viewLabel="View"
                           />
                         </TableCell>
